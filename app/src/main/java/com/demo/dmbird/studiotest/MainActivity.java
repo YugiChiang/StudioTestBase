@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 /**
- * ��Actvity
+ * 主Actvity
  */
 public class MainActivity extends ActionBarActivity {
 
@@ -14,6 +14,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // 测试性输入几个中文
     }
 
     @Override
